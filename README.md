@@ -4,6 +4,8 @@ USB adapter for [pin version of uBlox Neo-M8T](https://www.csgshop.com/product.p
 
 The pin header on the receiver breaks out USB D-/D+, 5V and GND. These can be routed directly to a USB mini or mico connector. For ease of construction I'm using a USB micro breakout board instead of soldering a USB micro connector directly on the board.
 
+There are also headers for other pins including UART TX,RX (J4) and interrupt and timing pulse pins (J3).
+
 ![PCB font](./doc/pcb_front.png)
 
 ![PCB back](./doc/pcb_back.png)
