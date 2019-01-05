@@ -52,9 +52,9 @@ USB_DN
 Text GLabel 4100 1650 0    50   Input ~ 0
 GND
 Text GLabel 2600 2150 2    50   Input ~ 0
-RX_MOSI
+RX
 Text GLabel 2600 2050 2    50   Input ~ 0
-TX_MISO
+TX
 Text GLabel 2600 1950 2    50   Input ~ 0
 EXTINT1
 Text GLabel 2600 1750 2    50   Input ~ 0
@@ -67,4 +67,44 @@ Text GLabel 2100 1950 0    50   Input ~ 0
 SPI_CS
 Text GLabel 2100 1750 0    50   Input ~ 0
 PPS1
+$Comp
+L Connector:Conn_01x06_Male J4
+U 1 1 5C0DD858
+P 4050 1050
+F 0 "J4" H 4158 1431 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 4158 1340 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 4050 1050 50  0001 C CNN
+F 3 "~" H 4050 1050 50  0001 C CNN
+	1    4050 1050
+	1    0    0    -1  
+$EndComp
+Text GLabel 4250 850  2    50   Input ~ 0
+GND
+Text GLabel 4250 1150 2    50   Input ~ 0
+RX
+Text GLabel 4250 1250 2    50   Input ~ 0
+TX
+Text GLabel 4250 1050 2    50   Input ~ 0
+USB+5V
+$Comp
+L Connector:Conn_01x06_Male J3
+U 1 1 5C0DF89B
+P 2850 1050
+F 0 "J3" H 2958 1431 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 2958 1340 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 2850 1050 50  0001 C CNN
+F 3 "~" H 2850 1050 50  0001 C CNN
+	1    2850 1050
+	1    0    0    -1  
+$EndComp
+Text GLabel 3050 850  2    50   Input ~ 0
+GND
+Text GLabel 3050 950  2    50   Input ~ 0
+PPS1
+Text GLabel 3050 1050 2    50   Input ~ 0
+PPS2
+Text GLabel 3050 1150 2    50   Input ~ 0
+EXTINT0
+Text GLabel 3050 1250 2    50   Input ~ 0
+EXTINT1
 $EndSCHEMATC
